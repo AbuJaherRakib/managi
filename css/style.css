@@ -1,0 +1,195 @@
+/* ===common css start here === */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+    /* font-family: "Space Grotesk", serif; */
+}
+ul,ol,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+h1,h2,h3,h4,h6,p{
+    line-height: 0.8;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* ===common css end here === */
+
+/* == navbar part start here === */
+#navbar{
+    font-size: 18px;
+    background: linear-gradient(112deg, #394792 -0.65%, #070F39 107.76%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.sidebyside{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+.sidebyside .nav-item{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    gap: 60px;
+}
+.sidebyside .nav-item ul{
+    display: contents;
+}
+.sidebyside .nav-item ul li{
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.81px;
+    color: #fff;
+    position: relative;
+    transition: all linear 0.4s;
+    cursor: pointer;
+    
+
+}
+.sidebyside .nav-item ul li:hover::after{
+    content: "";
+    
+    width: 95%;
+    height: 1px;
+    background: #fff;
+    left: 0;
+    bottom: -3px;
+    position: absolute;
+}
+.sidebyside .nav-logo{
+    justify-self: center;
+}
+.sidebyside .nav-logo img{
+    height: 32px;
+}
+.sidebyside .nav-button{
+    justify-self: end;
+    
+}
+.sidebyside .nav-button a{
+    color: #fff;
+    padding: 16px 40px;
+    border-radius:  30px; ;
+    border: 1px solid transparent;
+    transition: all linear 0.3s;
+    font-weight: 500;
+    letter-spacing: -0.81px;
+    font-size: 18px;
+}
+.sidebyside .nav-button a:hover{
+    border: 1px solid #fff;
+
+}
+
+/* == navbar part end here === */
+
+
+
+/* == banner part start here === */
+#banner{
+    background: linear-gradient(112deg, #394792 -0.65%, #070F39 107.76%);
+    padding-top: 150px;
+    margin-bottom: 134px;
+
+}
+#banner .sidebyside{
+    display: grid;
+    grid-template-columns: 62% 38%;
+}
+#banner .sidebyside .left{
+    
+}
+#banner .sidebyside .left h1{
+    font-family: "Space Grotesk", serif;
+    font-weight: 500;
+    line-height: 120%; /* 76.8px */
+    letter-spacing: -3.2px;
+    color: #FFF;
+    font-size: 64px;
+    margin-bottom: 32px;
+}
+#banner .sidebyside .left p{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%; /* 30.6px */
+    letter-spacing: -0.81px;
+    max-width: 557px;
+    margin-bottom: 40px;
+}
+
+#banner .sidebyside .left .banner-button a{
+    color: #fff;
+    padding: 18px 32px;
+    border-radius:  30px;
+    border: 1px solid #fff;
+    transition: all linear 0.3s;
+    margin-right: 24px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.81px;
+    margin-bottom: 60px;
+}
+#banner .sidebyside .left .banner-button a:hover{
+    background: white;
+    color: #394792;
+}
+#banner .sidebyside .left .info h3{
+    color: #FFF;
+    font-family: "Space Grotesk",serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.28px;
+}
+#banner .sidebyside .left .info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#banner .sidebyside .left .info p{
+    width: 86px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+    letter-spacing: -0.54px;
+}
+#banner .sidebyside .right img {
+    width: 120%;
+    position: relative;
+    left: -100px;
+    top: 100px;
+}
+/* == banner part end here === */
+
+
+
+/* == navbar part start here === */
+/* == navbar part end here === */
+
+
+
+/* == navbar part start here === */
+/* == navbar part end here === */
+
+
+
+/* == navbar part start here === */
+/* == navbar part end here === */
+
+
+
+/* == navbar part start here === */
+/* == navbar part end here === */
